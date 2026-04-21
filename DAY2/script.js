@@ -1,8 +1,6 @@
-fullName = "Mridul Krishna";
-age = 24;
-price = 26.99;
-x = null;
-y = undefined
-console.log(fullName);
-console.log(age);
-console.log(price);
+fullName = "tony stark";
+_fullName = "tony stark";
+$fullname = "tony stark";
+console.log(fullName)
+console.log(_fullName)
+console.log($fullname)
