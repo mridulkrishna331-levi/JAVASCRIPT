@@ -29,11 +29,11 @@ h1 {
 button {
     color:green;
 } */
-p {
+/* p {
     text-align: center;
     /* text-decoration: underline;
     text-decoration: none; */
-}
+/* }
 
 h1 {
     font-weight: bolder;
@@ -44,4 +44,24 @@ h1 {
 }
 #two{
     font-family: segoe UI;
+} */
+/* #one {
+    font-size: 20px;
+    line-height: 20 px;
+    text-transform: capitalize;
+} */
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Times New Roman;
+}
+
+#outer {
+    font-size: 25px;
+
+
+}
+
+#inner {
+    font-size: 10px;
 }
