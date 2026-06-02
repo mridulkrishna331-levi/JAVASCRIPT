@@ -1,3 +1,16 @@
 h1 {
     color: blue;
 }
+
+p {
+    color: rgb(201, 163, 163);
+}
+
+button {
+    color: rgb(19, 35, 30);
+    background-color: rgb(58, 176, 219);
+}
+
+body {
+    background-color: #ff0000;
+}
