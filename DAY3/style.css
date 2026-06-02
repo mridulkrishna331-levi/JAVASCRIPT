@@ -50,7 +50,7 @@ h1 {
     line-height: 20 px;
     text-transform: capitalize;
 } */
-h1 {
+/* h1 {
     text-align: center;
     text-transform: capitalize;
     font-family: Times New Roman;
@@ -64,4 +64,22 @@ h1 {
 
 #inner {
     font-size: 10px;
+} */
+
+div {
+    height: 100px;
+    background-color: burlywood;
+    width: 80px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: brown;
+
+
+}
+
+h1 {
+    height: 50px;
+    width: 200px;
+    background-color: rgb(151, 137, 82);
+    border:2px dotted blue
 }
