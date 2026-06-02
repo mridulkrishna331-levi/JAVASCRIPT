@@ -1,16 +1,31 @@
-h1 {
-    color: blue;
+* {
+    color: pink;
 }
 
-p {
-    color: rgb(201, 163, 163);
+h1 {
+    color: green;
+}
+
+#heading1 {
+    color: aqua;
+}
+
+#heading2 {
+    color: brown;
+}
+
+#heading3 {
+    color: darkviolet;
+}
+
+#box {
+    background-color: blue;
+}
+
+.heading {
+    color: red;
 }
 
 button {
-    color: rgb(19, 35, 30);
-    background-color: rgb(58, 176, 219);
-}
-
-body {
-    background-color: #ff0000;
+    color:green;
 }
