@@ -143,17 +143,41 @@ div {
     position: absolute;
     top: 100px;
     left: 200px;
+    /* transition: all 2s ease-in; */
     /* transform: rotate(45deg); */
     /* transform: translate(200px); */
     /* transform:scale(2) */
+    /* animation-name: colorAnimate;
+    animation-duration: 0.25s; */
+    /* animation-timing-function: ease-in; */
+    /* animation-delay: 1s; */
+    /* animation-iteration-count: infinite;
+    animation-direction: alternate */
+    animation: colorAnimate 2s ease-in-out 0s infinite alternate;
 }
 
-div:hover {
-    background-color: red;
-    transform: translate(400px);
-    transition: all 2s ease-in;
-}
+/* div:hover { */
+/* background-color: red; */
+/* transform: translate(400px); */
+/* transition: all 2s ease-in; */
+/* transform: skew(30deg);  */
 
-div:active {
+/* } */
+
+/* div:active {
     background-color: blue;
+} */
+
+@keyframes colorAnimate {
+    0% {
+        left: 0px;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    100% {
+        right: 0px;
+    }
 }
