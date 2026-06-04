@@ -139,11 +139,19 @@ div {
     transition-duration: 2s;
     transition-timing-function: ease-in;
     transition-delay: 2s; */
-    transition:all 2s ease-in 3s;
+    /* transition:all 2s ease-in 3s; */
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    /* transform: rotate(45deg); */
+    /* transform: translate(200px); */
+    /* transform:scale(2) */
 }
 
 div:hover {
     background-color: red;
+    transform: translate(400px);
+    transition: all 2s ease-in;
 }
 
 div:active {
