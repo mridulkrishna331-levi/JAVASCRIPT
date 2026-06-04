@@ -41,7 +41,7 @@ div {
 #box5 {
     background-color: slateblue;
 } */
-.navbar {
+/* .navbar {
     background-color: pink;
     display: flex;
     justify-content: space-evenly;
@@ -52,11 +52,27 @@ a {
     color: black;
     /* display: inline; */
 
-    /* justify-content: space-evenly; */
-}
+/* justify-content: space-evenly; */
+/* }
 
 li {
     list-style-type: none;
     /* display: inline; */
-    background-color: aqua;
+/* background-color: aqua; */
+/* } */
+
+.outer {
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inner {
+    height: 100px;
+    width: 100px;
+    background-color: darkorchid;
 }
