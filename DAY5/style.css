@@ -1,4 +1,4 @@
-body {
+/* body {
     text-align: center;
 }
 
@@ -12,13 +12,13 @@ div {
 #container {
     width: 800px;
     height: 200px;
-    display: flex;
-    /* flex-direction: column */
-    /* flex-direction: column-reverse;
+    display: flex; */
+/* flex-direction: column */
+/* flex-direction: column-reverse;
             flex-direction: column;
  */
 
-    flex-direction: row;
+/* flex-direction: row;
     justify-content: flex-start;
 }
 
@@ -40,4 +40,23 @@ div {
 
 #box5 {
     background-color: slateblue;
+} */
+.navbar {
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    /* display: inline; */
+
+    /* justify-content: space-evenly; */
+}
+
+li {
+    list-style-type: none;
+    /* display: inline; */
+    background-color: aqua;
 }
