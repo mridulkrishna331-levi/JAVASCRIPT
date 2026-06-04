@@ -61,7 +61,7 @@ li {
 /* background-color: aqua; */
 /* } */
 
-.outer {
+/* .outer {
     height: 400px;
     width: 400px;
     background-color: cornflowerblue;
@@ -75,4 +75,22 @@ li {
     height: 100px;
     width: 100px;
     background-color: darkorchid;
+} */
+
+div {
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+}
+
+@media(width:600px) {
+    div {
+        background-color: red;
+    }
+}
+
+@media (min-width:600px) {
+    div {
+        background-color: green;
+    }
 }
