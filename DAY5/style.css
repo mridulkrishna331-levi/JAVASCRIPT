@@ -101,7 +101,7 @@ li {
     }
 } */
 
-div {
+/* div {
     height: 50px;
     width: 50px;
     background-color: black;
@@ -129,4 +129,23 @@ div {
     div {
         background-color: blue;
     }
+} */
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 2s; */
+    transition:all 2s ease-in 3s;
+}
+
+div:hover {
+    background-color: red;
+}
+
+div:active {
+    background-color: blue;
 }
