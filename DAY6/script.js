@@ -16,6 +16,22 @@
 // let a;
 // console.log(a)
 
-let age = 24;
-typeof age
-console.log(typeof age, age)
+// let age = 24;
+// typeof age
+// console.log(typeof age, age)
+
+// const student = {
+//     fullName: "Mridul Krishna",
+//     isPass: true,
+//     age: 20,
+//     cgpa: 8.2,
+// };
+// console.log(student)
+
+const product = {
+    penName: "parkerjotter",
+    rate: 4.6,
+    deal: true,
+    price: 299,
+}
+console.log(product)
