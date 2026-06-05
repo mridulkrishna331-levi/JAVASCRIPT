@@ -38,7 +38,22 @@
 // THis is a simgle line comment 
 
 // CONDITIONAL STATEMENT
-let color;
-if (mode === "dark-mode") {
-    color = "black";
+// let color;
+// if (mode === "dark-mode") {
+//     color = "black";
+// }
+
+
+// LOOPS
+for (let i = 1; i <= 10; i++) {
+    console.log("Mridul Krishna ")
+
+
 }
+
+let sum = 0;
+for (let i = 1; i <= 5; i++) {
+    sum = sum + i;
+
+}
+console.log(sum)
