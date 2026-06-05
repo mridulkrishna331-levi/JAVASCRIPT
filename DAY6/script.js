@@ -28,10 +28,17 @@
 // };
 // console.log(student)
 
-const product = {
-    penName: "parkerjotter",
-    rate: 4.6,
-    deal: true,
-    price: 299,
+// const product = {
+//     penName: "parkerjotter",
+//     rate: 4.6,
+//     deal: true,
+//     price: 299,
+// }
+// console.log(product)
+// THis is a simgle line comment 
+
+// CONDITIONAL STATEMENT
+let color;
+if (mode === "dark-mode") {
+    color = "black";
 }
-console.log(product)
