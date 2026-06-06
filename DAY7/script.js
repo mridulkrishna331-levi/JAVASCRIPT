@@ -43,7 +43,25 @@
 // console.log(str.replace("H","L"))
 
 
-let heores = ["ironman", "spiderman", "thor", "chota bheem"];
-let marks = [45, 56, 24, 74, 86, 98];
-marks[0] = 33
-console.log(marks)
+// let heores = ["ironman", "spiderman", "thor", "chota bheem"];
+// let marks = [45, 56, 24, 74, 86, 98];
+// marks[0] = 33
+// console.log(marks)
+
+// let heroes = ["spiderman", "ironman", "superman", "doremon", "sinchan", "leon"];
+// for (let idx = 0; idx < heroes.length; idx++) {
+//     console.log(heroes[idx]);
+// }
+
+// let marks = [85, 97, 44, 37, 76, 60];
+// let sum = 0;
+// for (let sum = 0; sum <= marks[sum]; sum++) {
+//     console.log(sum / marks.length)
+// }
+
+let items = [250, 645, 300, 900, 50];
+for (i = 0; i < items.length; i++) {
+    let offer = items[i] / 10;
+    items[i] -= offer;
+}
+console.log(items)
