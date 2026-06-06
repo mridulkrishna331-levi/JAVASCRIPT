@@ -72,7 +72,13 @@
 // console.log(foodItems);
 // console.log(foodItems.toString());
 
-let marvel_heroes = ["thor", "spiderman", "ironman"];
-let dc_heroes = ["superman", "batman"];
-sum = marvel_heroes.concat(dc_heroes);
-console.log(sum)
+// let marvel_heroes = ["thor", "spiderman", "ironman"];
+// let dc_heroes = ["superman", "batman"];
+// sum = marvel_heroes.concat(dc_heroes);
+// console.log(sum)
+
+// let heroes = ["spiderman", "ironman", "antman", "thor", "loki", "hulk", "wanda"];
+// console.log(heroes.slice(1, 4));
+let arr = [1, 2, 3, 4, 5, 6, 7];
+arr.splice(2,1,10,11);
+console.log(arr)
