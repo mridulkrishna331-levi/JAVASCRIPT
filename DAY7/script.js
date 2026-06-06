@@ -39,5 +39,11 @@
 // let str2 = " Krishna";
 // console.log(str1.concat(str2))
 
-let str = "Hello";
-console.log(str.replace("H","L"))
+// let str = "Hello";
+// console.log(str.replace("H","L"))
+
+
+let heores = ["ironman", "spiderman", "thor", "chota bheem"];
+let marks = [45, 56, 24, 74, 86, 98];
+marks[0] = 33
+console.log(marks)
