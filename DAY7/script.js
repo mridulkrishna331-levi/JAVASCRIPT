@@ -59,9 +59,15 @@
 //     console.log(sum / marks.length)
 // }
 
-let items = [250, 645, 300, 900, 50];
-for (i = 0; i < items.length; i++) {
-    let offer = items[i] / 10;
-    items[i] -= offer;
-}
-console.log(items)
+// let items = [250, 645, 300, 900, 50];
+// for (i = 0; i < items.length; i++) {
+//     let offer = items[i] / 10;
+//     items[i] -= offer;
+// }
+// console.log(items)
+
+let foodItems = ["potato", "apple", "litchi", "tomato"];
+foodItems.push("chips", "burger");
+foodItems.pop();
+console.log(foodItems);
+console.log(foodItems.toString());
