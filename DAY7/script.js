@@ -66,8 +66,13 @@
 // }
 // console.log(items)
 
-let foodItems = ["potato", "apple", "litchi", "tomato"];
-foodItems.push("chips", "burger");
-foodItems.pop();
-console.log(foodItems);
-console.log(foodItems.toString());
+// let foodItems = ["potato", "apple", "litchi", "tomato"];
+// foodItems.push("chips", "burger");
+// foodItems.pop();
+// console.log(foodItems);
+// console.log(foodItems.toString());
+
+let marvel_heroes = ["thor", "spiderman", "ironman"];
+let dc_heroes = ["superman", "batman"];
+sum = marvel_heroes.concat(dc_heroes);
+console.log(sum)
