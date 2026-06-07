@@ -39,13 +39,24 @@
 
 
 // ARROW FUNCTION
-const arrowSum = (a, b) => {
-    console.log(a + b)
-}
+// const arrowSum = (a, b) => {
+//     console.log(a + b)
+// }
 
-arrowSum(4, 5);
+// arrowSum(4, 5);
 
-const arrowMul = (x, y) => {
-    console.log(x * y)
+// const arrowMul = (x, y) => {
+//     console.log(x * y)
+// }
+// arrowMul(4, 6 )
+
+// practice questions 
+function countVovels(str) {
+    let count = 0;
+    for (const char of str) {
+        if (char === "a" || char === "e" || char === "i" || char === "o" || char === u) {
+            count++;
+        }
+    }
+    console.log(count)
 }
-arrowMul(4, 6 )
