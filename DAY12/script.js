@@ -360,21 +360,42 @@
 
 
 // ARRAYS
-const students = ['manu', 'billu', 'current'];
-console.log(students);
-console.log(students.length);   //to fidn the length
+// const students = ['manu', 'billu', 'current'];
+// console.log(students);
+// console.log(students.length);   //to fidn the length
 
-students[0] = "Mridul";  //to change the value in array
+// students[0] = "Mridul";  //to change the value in array
 
-console.log(students[1]);    // to access the particular element 
+// console.log(students[1]);    // to access the particular element 
 
-students.push("boxer");     // to add the value at the end
-console.log(students);
+// students.push("boxer");     // to add the value at the end
+// console.log(students);
 
-console.log(students.indexOf("current"));    //to find the index of an element 
+// console.log(students.indexOf("current"));    //to find the index of an element 
 
-students.pop();              // to remove the element from teh last
-console.log(students);
+// students.pop();              // to remove the element from teh last
+// console.log(students);
 
-students.reverse();         // to reverse an array 
-console.log(students);
+// students.reverse();         // to reverse an array 
+// console.log(students);
+
+
+
+
+
+
+
+
+
+// ARRAYS HIGHER ORDER FUNCTIONS
+const students = ['manu', 'billu', 'current', "kartik", "dimple"];
+
+// 1. forEach => this is a way to loop over your array and callback function pass karte h jisme hum kaam karte h  
+// function print(n) {
+//     console.log(n)
+// }
+// students.forEach(print)
+
+
+// 2. map => same hota h bas .map return new array and .forEach doesnot
+students.map((val)=>console.log(val));
