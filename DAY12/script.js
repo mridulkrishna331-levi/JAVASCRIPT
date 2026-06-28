@@ -388,7 +388,7 @@
 
 
 // ARRAYS HIGHER ORDER FUNCTIONS
-const students = ['manu', 'billu', 'current', "kartik", "dimple"];
+// const students = ['manu', 'billu', 'current', "kartik", "dimple"];
 
 // 1. forEach => this is a way to loop over your array and callback function pass karte h jisme hum kaam karte h  
 // function print(n) {
@@ -398,4 +398,28 @@ const students = ['manu', 'billu', 'current', "kartik", "dimple"];
 
 
 // 2. map => same hota h bas .map return new array and .forEach doesnot
-students.map((val)=>console.log(val));
+// students.map((val)=>console.log(val));
+
+const num = [1, 2, 3, 4, 5, 6, 7];
+
+// to find the element in an array
+let ans = num.find(nums => nums === 4);
+console.log(ans)
+
+// same findIndex hota h  
+
+
+// to filter the elements in an array
+let newarr = num.filter(num => num % 2 === 0);
+console.log(newarr)
+
+// array ka sub-array karne ke liye
+let newArr = num.slice(1, 5);
+console.log(newArr)
+
+// splice crazy h yha tak range di wha tak delete kar dega or usi ko return kar dega new array m se or new arr change ho jayega
+let lastArr = num.splice(2,4);
+console.log(lastArr);
+console.log(num)
+
+
