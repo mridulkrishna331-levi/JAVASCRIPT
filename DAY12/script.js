@@ -49,32 +49,48 @@
 
 // DATATYPES
 // numbers
-let num = 2.12;
+// let num = 2.12;
+// let num1 = 10;
+// console.log(num + num1)
+
+// // strings
+// const name = "manu";
+// const next = "tiwari"
+// console.log(name + ' ' + next);
+
+// // boolean
+// let isloggedin = true;
+// console.log(isloggedin)
+
+// // null
+// let lastLoginDate = null;
+// console.log(lastLoginDate)
+
+// // undefined
+// let loginDate = undefined;
+// console.log(loginDate);
+
+// // objects
+// const person = {
+//     FullName:"Mridul Krishna",
+//     age : 23,
+//     isloggedin:false,
+// }
+// console.log(person );
+
+
+
+
+
+// OPERATORS
 let num1 = 10;
-console.log(num + num1)
+let num2 = 20;
+console.log(num1+num2+49);
+console.log(num1-num2+49);
+console.log(num1*num2+49);
+console.log(num1/num2+49);
+console.log("manu"*1)
 
-// strings
-const name = "manu";
-const next = "tiwari"
-console.log(name + ' ' + next);
-
-// boolean
-let isloggedin = true;
-console.log(isloggedin)
-
-// null 
-let lastLoginDate = null;
-console.log(lastLoginDate)
-
-// undefined
-let loginDate = undefined;
-console.log(loginDate);
-
-// objects
-const person = {
-    FullName:"Mridul Krishna",
-    age : 23,
-    isloggedin:false,
-}
-console.log(person )
+// type of operator
+console.log(typeof("manu"*1))
 
