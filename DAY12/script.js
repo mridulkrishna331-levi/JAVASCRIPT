@@ -252,19 +252,40 @@
 
 
 // FUNCTION
-function sayHello(){        //function naming 
-    console.log("Hello There")      //execution of code
-}
-sayHello()      //calling the function
+// function sayHello() {        //function naming 
+//     console.log("Hello There")      //execution of code
+// }
+// sayHello()      //calling the function
 
-// parameters
-function addingTwoDigitNumber(a,b){
-        console.log("a+b = ",a+b)
-}
-addingTwoDigitNumber(23,45)
+// // parameters
+// function addingTwoDigitNumber(a,b){
+//         console.log("a+b = ",a+b)
+// }
+// addingTwoDigitNumber(23,45)
 
-function multiply(a,b){
-    console.log(a*b)
+// function multiply(a,b){
+//     console.log(a*b)
+// }
+// multiply(12,6)
+
+// We always havve to return the value we dont have to do console.log all the time 
+// function multiply(a, b) {
+//     return a * b;
+// }
+// let a = multiply(12, 5);
+
+// console.log("multiplication is ", a)
+
+
+// unlimited arguments ko pass kar sake 
+function addNums() {
+    let ans = 0;
+    for (let i = 0; i < arguments.length; i++) {
+        ans = arguments[i] + ans
+    }
+    return ans
 }
-multiply(12,6)
+let result = addNums(1, 2, 3, 4, 5);
+console.log(result)
+
 
