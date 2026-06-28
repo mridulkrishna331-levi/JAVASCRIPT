@@ -252,7 +252,7 @@
 
 
 // FUNCTION
-// function sayHello() {        //function naming 
+// function sayHello() {        //function naming
 //     console.log("Hello There")      //execution of code
 // }
 // sayHello()      //calling the function
@@ -268,7 +268,7 @@
 // }
 // multiply(12,6)
 
-// We always havve to return the value we dont have to do console.log all the time 
+// We always havve to return the value we dont have to do console.log all the time
 // function multiply(a, b) {
 //     return a * b;
 // }
@@ -277,15 +277,54 @@
 // console.log("multiplication is ", a)
 
 
-// unlimited arguments ko pass kar sake 
-function addNums() {
-    let ans = 0;
-    for (let i = 0; i < arguments.length; i++) {
-        ans = arguments[i] + ans
-    }
-    return ans
-}
-let result = addNums(1, 2, 3, 4, 5);
-console.log(result)
+// unlimited arguments ko pass kar sake
+// function addNums() {
+//     let ans = 0;
+//     for (let i = 0; i < arguments.length; i++) {
+//         ans = arguments[i] + ans
+//     }
+//     return ans
+// }
+// let result = addNums(1, 2, 3, 4, 5);
+// console.log(result)
 
+
+// ARROW FUNCTION 
+
+// 1. Syntax
+const sayHello = () => {
+    console.log("Hello")
+};
+sayHello()
+
+const add = (a, b) => {
+    return a + b;
+};
+console.log(add(212, 34))
+
+
+
+// 2.'arguments' keyword
+// arguments is not defined in arrow function
+
+
+
+
+// 3.Hoisting(intresting)
+
+const sayhey = () => {
+    console.log("hey")
+}
+sayhey()
+
+
+
+// 4.This keyword(really important)
+const obj = {
+    value: 1333,
+    myFunction: function () {
+        console.log(this.value)
+    },
+};
+obj.myFunction()
 
