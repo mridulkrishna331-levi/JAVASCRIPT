@@ -109,19 +109,58 @@
 
 
 // CONTIDIONAL STTEMENTS
-const age = 220;
+// const age = 220;
 
-if (age >= 80) {
-    console.log("too old t vote")
-}
-else if (age >= 18) {
-    console.log("can vote")
-}
-else {
-    console.log("can't vote")
+// if (age >= 80) {
+//     console.log("too old t vote")
+// }
+// else if (age >= 18) {
+//     console.log("can vote")
+// }
+// else {
+//     console.log("can't vote")
+// }
+
+// // Ternery operators
+// umar = 19;
+// umar>=18 ? console.log('vote kar sakta h '):console.log('nhi kar sakta vote chota h sala  ')
+
+
+// #Switch Case Statements
+
+const option = 2;
+switch (option) {
+    case 1: {
+        console.log("Namaste")
+    }
+        break;
+    case 2: {
+        console.log("Hello")
+    }
+        break
+    case 3: {
+        console.log("konichiwa")
+    }
+        break
+    default: console.log("invalid option")
 }
 
-// Ternery operators
-umar = 19;
-umar>=18 ? console.log('vote kar sakta h '):console.log('nhi kar sakta vote chota h sala  ')
 
+let a = 30;
+let opt = '+'
+let b = 40;
+switch (opt) {
+    case '+': {
+        console.log(a + b)
+    }
+        break
+    case '-': {
+        console.log(a - b)
+    }
+        break
+    case '*': {
+        console.log(a * b)
+    }
+        break
+    default: console.log("invalid option choose ")
+}
