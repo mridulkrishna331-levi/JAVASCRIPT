@@ -289,42 +289,63 @@
 // console.log(result)
 
 
-// ARROW FUNCTION 
+// ARROW FUNCTION
 
-// 1. Syntax
-const sayHello = () => {
-    console.log("Hello")
-};
-sayHello()
+// // 1. Syntax
+// const sayHello = () => {
+//     console.log("Hello")
+// };
+// sayHello()
 
-const add = (a, b) => {
-    return a + b;
-};
-console.log(add(212, 34))
-
-
-
-// 2.'arguments' keyword
-// arguments is not defined in arrow function
+// const add = (a, b) => {
+//     return a + b;
+// };
+// console.log(add(212, 34))
 
 
 
+// // 2.'arguments' keyword
+// // arguments is not defined in arrow function
 
-// 3.Hoisting(intresting)
 
-const sayhey = () => {
-    console.log("hey")
+
+
+// // 3.Hoisting(intresting)
+
+// const sayhey = () => {
+//     console.log("hey")
+// }
+// sayhey()
+
+
+
+// // 4.This keyword(really important)
+// const obj = {
+//     value: 1333,
+//     myFunction: function () {
+//         console.log(this.value)
+//     },
+// };
+// obj.myFunction()
+
+
+
+
+
+
+
+
+
+
+
+
+// HIGHER ORDER FUNCTION AND CALL-BACKS
+// Higher Order : functin take another function as an argumnts
+
+function add(a, b, cb) {
+    let result = a + b;
+    cb(result)
 }
-sayhey()
+add(2, 4, (val) =>console.log(val))
 
-
-
-// 4.This keyword(really important)
-const obj = {
-    value: 1333,
-    myFunction: function () {
-        console.log(this.value)
-    },
-};
-obj.myFunction()
-
+// console.log(add(23, 45));
