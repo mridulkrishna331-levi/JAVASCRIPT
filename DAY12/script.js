@@ -342,10 +342,39 @@
 // HIGHER ORDER FUNCTION AND CALL-BACKS
 // Higher Order : functin take another function as an argumnts
 
-function add(a, b, cb) {
-    let result = a + b;
-    cb(result)
-}
-add(2, 4, (val) =>console.log(val))
+// function add(a, b, cb) {
+//     let result = a + b;
+//     cb(result)
+// }
+// add(2, 4, (val) =>console.log(val))
 
-// console.log(add(23, 45));
+// // console.log(add(23, 45));
+
+
+
+
+
+
+
+
+
+
+// ARRAYS
+const students = ['manu', 'billu', 'current'];
+console.log(students);
+console.log(students.length);   //to fidn the length
+
+students[0] = "Mridul";  //to change the value in array
+
+console.log(students[1]);    // to access the particular element 
+
+students.push("boxer");     // to add the value at the end
+console.log(students);
+
+console.log(students.indexOf("current"));    //to find the index of an element 
+
+students.pop();              // to remove the element from teh last
+console.log(students);
+
+students.reverse();         // to reverse an array 
+console.log(students);
