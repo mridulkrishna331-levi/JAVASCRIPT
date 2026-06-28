@@ -192,7 +192,79 @@
 // }
 
 // Not -> y false ko true kar deta h or true ko false kar deta h ()
-const number = 5;
-if (number % 2 != 0) {
-    console.log("Odd")
+// const number = 5;
+// if (number % 2 != 0) {
+//     console.log("Odd")
+// }
+
+
+
+
+
+
+
+
+
+// LOOPS
+
+// 1. for loop  :   if you know how many tiems to loop
+// for (let i = 1; i <= 10; i = i + 1) {
+//     console.log("Mridul")
+// }
+
+// 2. while loop   :   jab hume condition pta ho ki yeh task karna h pr y ni pta ki kitna time lgne wla h
+
+// let ip = 0;
+// let house = 100;
+// while (ip != house) {
+//     console.log("step taken")
+//     ip += 20;
+// }
+
+// 3. do While loop    :    plhe code run karega then conditin check karega
+// let ip = 0;
+// let house = 100;
+// do {
+//     console.log("steptaken")
+//     ip += 20
+// } while (ip <= house)
+
+
+// guess the number
+// let num = 40;
+// let guess = 0;
+// do {
+//     guess = prompt("Guess a number") * 1
+//     if (guess == num) {
+//         break;
+//         alert("winner")
+//     }
+// } while (guess != 0)
+
+
+
+
+
+
+
+
+
+
+
+// FUNCTION
+function sayHello(){        //function naming 
+    console.log("Hello There")      //execution of code
 }
+sayHello()      //calling the function
+
+// parameters
+function addingTwoDigitNumber(a,b){
+        console.log("a+b = ",a+b)
+}
+addingTwoDigitNumber(23,45)
+
+function multiply(a,b){
+    console.log(a*b)
+}
+multiply(12,6)
+
