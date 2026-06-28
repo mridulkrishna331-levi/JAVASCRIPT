@@ -121,46 +121,78 @@
 //     console.log("can't vote")
 // }
 
-// // Ternery operators
-// umar = 19;
-// umar>=18 ? console.log('vote kar sakta h '):console.log('nhi kar sakta vote chota h sala  ')
+// // // Ternery operators
+// // umar = 19;
+// // umar>=18 ? console.log('vote kar sakta h '):console.log('nhi kar sakta vote chota h sala  ')
 
 
-// #Switch Case Statements
+// // #Switch Case Statements
 
-const option = 2;
-switch (option) {
-    case 1: {
-        console.log("Namaste")
-    }
-        break;
-    case 2: {
-        console.log("Hello")
-    }
-        break
-    case 3: {
-        console.log("konichiwa")
-    }
-        break
-    default: console.log("invalid option")
-}
+// const option = 2;
+// switch (option) {
+//     case 1: {
+//         console.log("Namaste")
+//     }
+//         break;
+//     case 2: {
+//         console.log("Hello")
+//     }
+//         break
+//     case 3: {
+//         console.log("konichiwa")
+//     }
+//         break
+//     default: console.log("invalid option")
+// }
 
 
-let a = 30;
-let opt = '+'
-let b = 40;
-switch (opt) {
-    case '+': {
-        console.log(a + b)
-    }
-        break
-    case '-': {
-        console.log(a - b)
-    }
-        break
-    case '*': {
-        console.log(a * b)
-    }
-        break
-    default: console.log("invalid option choose ")
+// let a = 30;
+// let opt = '+'
+// let b = 40;
+// switch (opt) {
+//     case '+': {
+//         console.log(a + b)
+//     }
+//         break
+//     case '-': {
+//         console.log(a - b)
+//     }
+//         break
+//     case '*': {
+//         console.log(a * b)
+//     }
+//         break
+//     default: console.log("invalid option choose ")
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+// LOGICAL OPERATORS
+// And -> akk condition must be true (&&)
+// const age = 10;
+// const gender = "male";
+// if (age >= 18 && gender == "male") {
+//     console.log("Sigma boi")
+// }
+
+// Or -> at least one condition is true(||)
+// const age = 10;
+// const gender = "male";
+// if (age >= 18 || gender == "male") {
+//     console.log("Sigma boi")
+// }
+
+// Not -> y false ko true kar deta h or true ko false kar deta h ()
+const number = 5;
+if (number % 2 != 0) {
+    console.log("Odd")
 }
