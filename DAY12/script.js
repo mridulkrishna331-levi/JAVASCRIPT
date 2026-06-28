@@ -83,14 +83,45 @@
 
 
 // OPERATORS
-let num1 = 10;
-let num2 = 20;
-console.log(num1+num2+49);
-console.log(num1-num2+49);
-console.log(num1*num2+49);
-console.log(num1/num2+49);
-console.log("manu"*1)
+// let num1 = 10;
+// let num2 = 20;
+// console.log(num1+num2+49);
+// console.log(num1-num2+49);
+// console.log(num1*num2+49);
+// console.log(num1/num2+49);
+// console.log("manu"*1)
 
-// type of operator
-console.log(typeof("manu"*1))
+// // type of operator
+// console.log(typeof("manu"*1))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// CONTIDIONAL STTEMENTS
+const age = 220;
+
+if (age >= 80) {
+    console.log("too old t vote")
+}
+else if (age >= 18) {
+    console.log("can vote")
+}
+else {
+    console.log("can't vote")
+}
+
+// Ternery operators
+umar = 19;
+umar>=18 ? console.log('vote kar sakta h '):console.log('nhi kar sakta vote chota h sala  ')
 
