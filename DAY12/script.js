@@ -20,12 +20,17 @@
 
 
 
-let age = 22;
+// let age = 22;
+// console.log(age)
+// if (true) {
+//     let bist = "hello there !"
+//     console.log(bist)
+// }
+// // console.log(bist)     it will show error
+
+const age = 23;
+// age = "piyush"       it willl show error that assignment to the constant variable
 console.log(age)
-if (true) {
-    let bist = "hello there !"
-    console.log(bist)
-}
-// console.log(bist)     it will show error
+
 
 
