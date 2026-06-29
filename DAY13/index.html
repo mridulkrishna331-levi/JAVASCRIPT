@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
+    <!-- <style>
         .red-color {
             color: red;
         }
@@ -13,7 +13,7 @@
         .underline {
             text-decoration: underline;
         }
-    </style>
+    </style> -->
 </head>
 
 <body>
@@ -80,7 +80,7 @@
     <p class="paragrapgh">Welcome to my website</p>
     </nav>
     <div class="block">
-        <h4>Hey there ! My Name is <span id="username">Mridul Krishan</span> </h4>
+        <h4>Hey there ! My Name is <span id="username">Mridul Krishna</span> </h4>
         <p class="paragraph">Here id the code for you</p>
         <pre><code>console.log("Hey there")</code></pre>
     </div>
@@ -88,10 +88,20 @@
     <script>
         const el = document.getElementById("username");
         // console.log(el.innerText);      // ander ka llikha hu aa jayega
+
         el.innerText = "billu badmos";      //  ander likhne ke liye 
-        el.classList.add("red-color", "underline");     // to add csss wagerah an d or koi class wagerah bhi 
-        el.classList.remove("red-color");       //remove karne ke liye
-        
+
+        // el.classList.add("red-color", "underline");     // to add csss wagerah an d or koi class wagerah bhi 
+
+        // el.classList.remove("red-color");       //remove karne ke liye
+
+        el.style.textDecoration = "underline";
+        el.style.color = "tomato";
+        el.parentElement.style.backgroundColor = "lightgreen";
+        el.setAttribute("aria", "123");     // khud attribute banayega jha ajise id wagerha class wagerah banti h then aise hi jaise aria ki value 123 set kar dega 
+
+
+
 
 
     </script>
