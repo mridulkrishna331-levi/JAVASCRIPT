@@ -171,7 +171,7 @@
         });
     </script> -->
 
-    <script>
+    <!-- <script>
         const btn = document.getElementById("btn");
         const block = document.getElementById("color");
         btn.addEventListener("click", () => {
@@ -181,6 +181,16 @@
                 block.style.color = "red"
             }
         }); 
+    </script> -->
+
+    <!-- kisi bhi chiz ho chute hi vo dom se nnikal jaye toh uske liye sabhi element ko plhe get karna poadega -->
+    <script>
+        const allChildren = document.querySelector("body").children;
+        for (let i = 0; i < allChildren.length; i++) {
+            allChildren.item(i).addEventListener("click", () => {
+                allChildren.item(i).remove()
+            });
+        }
     </script>
 </body>
 
